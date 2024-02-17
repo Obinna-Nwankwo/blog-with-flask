@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nwankwo Official</title>
+    <link rel="stylesheet" href="../static/bootstrap.css">
+    <link rel="stylesheet" href="../static/style.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body fixed-top" data-bs-theme="dark">
+        <a href="" class="navbar-brand"> <img src="../static/logo.png" alt="Loge" width="30" height="30"
+                class="name-logo d-inline-block align-text-top"> Motivational Blog </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class=" sideBar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Motivational</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body ms-lg-auto">
+                <ul class=" linkBar navbar-nav mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class=".container .container-md container-sm pb-4">
+        <div class="row g-5">
+            <div class="maginTop blogText mt-n1">
+                <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                    From the Moltivatal Term
+                </h3>
+
+                <article class="blog-post">
+                    <h2 class="display-5 link-body-emphasis mb-4 text-primary-emphasis">Recent Posts</h2>
+                    <blockquote class="blockquote mb-0">
+                        <p class="text-primary-emphasis mb-1">Celebrate Small Wins</p>
+                    </blockquote>
+                    <p class="blog-post-meta text-decoration-none">September 4, 2023 by <a
+                            class="text-decoration-none">Justice</a></p>
+                    <p> Acknowledge and celebrate every achievement, no matter how small. Each accomplishment is a stepping stone toward your
+                    larger goals. Recognizing your progress fosters a sense of accomplishment and fuels ongoing motivation.</p>
+
+                    <blockquote class="blockquote mb-0">
+                        <p class="text-primary-emphasis mb-1">Embrace Continuous Growth</p>
+                    </blockquote>
+                    <p class="blog-post-meta">October 2, 2023 by <a class="text-decoration-none">Esther</a></p>
+            
+                  <p> Motivation thrives on growth and learning. Embrace challenges and seek opportunities for personal and professional
+                    development. The pursuit of knowledge and skill enhancement not only keeps motivation alive but opens doors to new
+                    possibilities.</p>
+
+                    <p class="text-primary-emphasis mb-1"> <strong>Learn From Setbacks</strong></p>
+                    <small class="blog-post-meta">November 19, 2023 by <a class="text-decoration-none">Richard</a></small>
+                    <p class="pt-3"> Setbacks are an inevitable part of any journey. Instead of letting them demoralize you, view setbacks as valuable
+                    lessons. Analyze what went wrong, adjust your approach, and use the experience to fuel your determination..</p>
+                   
+                    <p class="text-primary-emphasis mb-1"><strong>Establish Consistent Habits</strong></p>
+                    <small class="blog-post-meta">December 1, 2023 by <a class="text-decoration-none">Elizabeth</a></small>
+                    <p class="pt-3"> Routines and habits create a sense of stability. Establishing positive habits, whether it's a morning routine, regular
+                    exercise, or dedicated work hours, provides a structured environment that reinforces motivation.</p>
+                </article>   
+
+        <nav class="blog-pagination" aria-label="Pagination">
+            <a class="btn btn-outline-primary rounded-pill" href="{{url_for('home_page')}}">Previous</a>
+            <a class="btn btn-outline-scondary rounded-pill disabled " aria-disabled="true" href="{{url_for('new_page')}}">Next</a>
+        </nav>
+          </div>
+        </div>
+
+    </main>
+
+        <div class="container pb-4 shadow-lg">
+            <footer class="py-3 my-4 ">
+                <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Recent</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+                </ul>
+                <p class="text-center text-body-secondary">&copy; 2023 Nwankwo, Inc</p>
+            </footer>
+        </div>
+
+
+    <script src="../static/bootstrap.js"></script>
+    <script src="../static/main.js"></script>
+</body>
+
+</html>

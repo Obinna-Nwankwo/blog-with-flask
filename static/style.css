@@ -1,0 +1,116 @@
+
+/* navbar */
+.navbar {
+padding: 2rem 3rem;
+}
+/* sideBar */
+.sideBar {
+  padding: 0 5% 0;
+}
+
+/*images*/
+.name-logo {
+margin: 0 10%;
+}
+
+/* div */
+.firstDiv {
+  margin-top: 6.75rem;
+  padding: 20%;
+}
+
+/* stylelint-disable stylistic/selector-list-comma-newline-after */
+
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif
+    /*rtl:Amiri, Georgia, "Times New Roman", serif*/
+  ;
+  font-size: 2.25rem;
+}
+
+.blog-header-logo:hover {
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif
+    /*rtl:Amiri, Georgia, "Times New Roman", serif*/
+  ;
+}
+
+.flex-auto {
+  flex: 0 0 auto;
+}
+
+.h-250 {
+  height: 250px;
+}
+
+@media (min-width: 768px) {
+  .h-md-250 {
+    height: 250px;
+  }
+}
+
+/* Pagination */
+.blog-pagination {
+  margin-bottom: 4rem;
+}
+
+/*
+ * Blog posts
+ */
+.blog-post {
+  margin-bottom: 4rem;
+}
+
+.blog-post-meta {
+  margin-bottom: 1.25rem;
+  color: #727272;
+}
+
+/* Blog Text */
+.blogText {
+  padding: 0 10%;
+}
+
+/* marging Top */
+.maginTop {
+  margin-top: 12rem;
+}
+
+/* readMoreBtn */
+
+/* .moreText {
+  display: none;
+}
+
+.read-more-btn {
+  cursor: pointer;
+}
+
+.text.show-more .moreText {
+  display: inline;
+} */
+
+.post button {
+  padding: 10px;
+  background-color: rgb(0, 128, 105);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.post:not(:last-child) {
+  margin-bottom: 50px;
+}
+
+.hide {
+  display: none;
+}
+

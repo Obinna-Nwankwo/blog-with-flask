@@ -1,0 +1,218 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nwankwo Official</title>
+  <link rel="stylesheet" href="../static/bootstrap.css">
+    <link rel="stylesheet" href="../static/style.css"> 
+</head>
+
+
+<body>
+<nav class="navbar navbar-expand-lg bg-dark border-bottom border-body fixed-top" data-bs-theme="dark" >
+    <a href="" class="navbar-brand"> <img src="../static/logo.png" alt="Loge" width="30" height="30" class="name-logo d-inline-block align-text-top"> Motivational Blog </a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+         </button>
+
+         <div class=" sideBar offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Motivational</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+        <div class="offcanvas-body ms-lg-auto">
+            <ul class=" linkBar navbar-nav mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link" href="">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="{{url_for('new_page')}}">Recent</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="">FAQs</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+
+    <main class=".container .container-md container-sm  pb-4">
+    <div class=" firstDiv p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+        <div class=" post col-lg-6 p-4">
+            <h1 class="display-4 fst-italic">Nwankwo Motivational Blog</h1>
+            <h3 class="lead my-3">Unleashing the Power Within.</h3>
+            <p class="content lead my-3"> 
+                In the hustle and bustle of our daily lives, maintaining high levels of motivation
+                can be a daunting task. We all encounter moments when the drive
+                    to pursue
+                    our goals wanes, leaving us feeling stuck and uninspired. However, it's crucial to
+                    recognize that motivation is not a constant, but a dynamic force that can be
+                    cultivated and nurtured. Let's embark on a journey to unleash the untapped
+                    potential within us and reignite the flames of motivation. </p>
+            <a  onclick="readMore(this)"  href="#" class="text-decoration-none">
+                Read More
+     
+            </a>
+        </div>
+    </div>
+    <div class="row mb-2">
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative">
+                <div class="col p-4 d-flex flex-column post">
+                    <strong class="d-inline-block mb-2 text-primary-emphasis">World Post</strong>
+                    <h3 class="mb-0">Define Your Purpose </h3>
+                    <div class="mb-1 text-body-secondary">Jan 12</div>
+                    <p class="content card-text mb-auto">
+                    Begin by identifying your passions and core values. What truly excites you? What values resonate with your soul?
+                    Understanding your purpose provides a solid foundation for motivation. When your goals align with your values, every
+                    step forward becomes a meaningful stride toward a purposeful life.
+</p>
+                    <a onclick="readMore(this)" class=" text-decoration-none ">
+                        Read More  </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm position-relative">
+                <div class="col p-4 d-flex flex-column post">
+                    <strong class="d-inline-block mb-2 text-success-emphasis">Smart Post</strong>
+                    <h3 class="mb-0">Set SMART Goals</h3>
+                    <div class="mb-1 text-body-secondary">Dec 11</div>
+                    <p class="content mb-auto">
+                    Break down your aspirations into Specific, Measurable, Achievable, Relevant, and Time-bound goals. SMART goals provide
+                    clarity and structure, turning abstract dreams into actionable steps. By creating a roadmap, you not only make your
+                    objectives more manageable but also boost your motivation as you witness progress.</p>
+                    <a onclick="readMore(this)" class="text-decoration-none">
+                       Read More</a>
+                </div>
+            </div>
+        </div>
+        </div>  
+
+        <div class="row g-5">
+            <div class=" blogText  col-md-8">
+                <h3 class="pb-4 mb-4 fst-italic border-bottom">
+                    From the Moltivatal Term
+                </h3>
+        
+                <article class="blog-post">
+                    <h2 class="display-5 link-body-emphasis mb-4 text-primary-emphasis">All Blog Post</h2>
+                    <blockquote class="blockquote mb-0">
+                        <p class="text-primary-emphasis mb-1">Cultivate a Positive Mindset</p>
+                    </blockquote>
+                    <p class="blog-post-meta text-decoration-none">January 1, 2023 by <a class="text-decoration-none">Patrick</a></p>
+                    <p >
+                    Embrace positivity as a guiding force. Replace self-doubt with self-belief, viewing challenges as opportunities for
+                    growth. A positive mindset not only enhances motivation but also fosters resilience, allowing you to bounce back
+                    stronger from setbacks.
+</p>
+                    <blockquote class="blockquote mb-0">
+                        <p class="text-primary-emphasis mb-1">Visualize Success</p>
+                    </blockquote>
+                    <p class="blog-post-meta text-decoration-none">February 27, 2023 by <a class="text-decoration-none">David</a></p>
+                    <p>
+                    Envision your success vividly. Visualization is a powerful tool that aligns your subconscious mind with your goals.
+                    Imagine the taste of triumph, the sense of accomplishment, and the joy of reaching your milestones. This mental
+                    rehearsal enhances motivation by creating a compelling image of your desired outcome. </p>
+                  <hr class="text-primary-emphasis mt-5 mb-5">
+                    <blockquote class="blockquote mb-0">
+                        <p class="text-primary-emphasis mb-1">Leates Quotes</p>
+                    </blockquote>
+                    <p class="blog-post-meta">March 30, 2023 by <a class="text-decoration-none">Angela</a></p>
+                    
+                    <p class="text-primary-emphasis mb-1"><strong>Break Tasks Into Manageable Steps</strong></p>
+                    <small class="blog-post-meta">April 18, 2023 by <a class="text-decoration-none">Helen</a></small>
+                    <p class="pt-3"> Large tasks can be overwhelming, leading to a loss of motivation. Break them into smaller, more manageable steps.
+                    Completing each step brings a sense of achievement, propelling you forward with renewed vigor.</p>
+
+                    <p class="text-primary-emphasis mb-1"><strong>Surround Yourself With Positivity</strong></p>
+                    <small class="blog-post-meta">May 20, 2023 by <a class="text-decoration-none">Nwankwo</a></small>
+                     <p class="mt-3">The company you keep greatly influences your motivation. Surround yourself with individuals who uplift and inspire you.
+                    Share your goals with supportive friends or mentors who can offer encouragement and constructive feedback.</p>
+            </article>
+
+        <nav class="blog-pagination " aria-label="Pagination">
+            <a class="btn btn-outline-scondary rounded-pill disabled" aria-disabled="true" href="{{url_for('home_page')}}">Previous</a>
+            <a class="btn btn-outline-primary rounded-pill " href="{{url_for('new_page')}}">Next</a>
+        </nav>
+        </div>
+
+        <div class="col-md-4 p-5">
+            <div class="position-sticky" style="top: 2rem;">
+                <div class="p-4 mb-3 bg-body-tertiary rounded">
+                    <h4 class="fst-italic">About</h4>
+                    <p class="mb-0">In conclusion, motivation is a journey, not a destination. By aligning your goals with your purpose, maintaining a
+                    positive mindset, and adopting strategies to overcome obstacles, you can unleash the power within. Embrace the
+                    challenges, celebrate victories, and let the pursuit of your dreams be the fuel that propels you to unprecedented
+                    heights. Remember, the key to sustained motivation lies within you-unleash it and watch your aspirations transform into
+                    reality.</p>
+                </div>
+        
+                <div class="p-4">
+                    <h4 class="fst-italic">Recent posts</h4>
+                    <ul class="list-unstyled">
+                        <li>
+                            <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                href="#">
+                                <div class="col-lg-8">
+                                    <h6 class="mb-0  text-primary-emphasis">Celebrate Small Wins</h6>
+                                    <small class="text-body-secondary">September 4, 2023 </small>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                href="#">
+                                <div class="col-lg-8">
+                                    <h6 class="mb-0  text-primary-emphasis">Embrace Continuous Growth</h6>
+                                    <small class="text-body-secondary">October 2, 2023</small>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                href="#">
+                                <div class="col-lg-8">
+                                    <h6 class="mb-0  text-primary-emphasis">Learn From Setbacks</h6>
+                                    <small class="text-body-secondary">November 19, 2023</small>
+                                </div>
+                            </a>
+                        </li>
+                            <li>
+                                <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top"
+                                    href="#">
+                                    <div class="col-lg-8">
+                                        <h6 class="mb-0  text-primary-emphasis">Establish Consistent Habits</h6>
+                                        <small class="text-body-secondary">December 1, 2023</small>
+                                    </div>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+    </main>
+    <div class="contact container  pb-4 shadow-lg">
+        <footer class="py-3 my-4 ">
+            <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Recent</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                <li class="nav-item"><a href="" class="nav-link px-2 text-body-secondary">About</a></li>
+            </ul>
+            <p class="text-center text-body-secondary">&copy; 2023 Nwankwo, Inc</p>
+        </footer>
+    </div>
+
+
+   <script src="../static/bootstrap.js"></script>
+    <script src="../static/main.js"></script>
+</body>
+</html>
